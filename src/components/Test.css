@@ -1,0 +1,39 @@
+.flow-value-container {
+  padding: 30px 150px;
+}
+.table-con {
+  padding: 20px 0;
+}
+.tabel-row {
+  margin-top: 5px;
+  transition: all 200ms ease;
+}
+.table-generator-icon {
+  font-size: 14px;
+  line-height: 32px;
+}
+.expander {
+  text-align: right;
+  color: #666;
+  cursor: pointer;
+}
+.expand-icon {
+  transition: all 200ms ease;
+}
+.expanded {
+  transform: rotateZ(90deg);
+}
+.enum-item {
+  margin: 5px 0;
+}
+.enum-item.add {
+  text-align: center;
+  padding: 4px;
+  border: 1px dashed #bbb;
+}
+.el-input.error .el-input__inner {
+  border: solid 1px #f56c6c;
+}
+.el-dropdown-menu {
+  min-width: 120px !important;
+}
